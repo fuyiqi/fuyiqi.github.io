@@ -1,0 +1,74 @@
+baseurl:
+url: https://fuyiqi.github.io
+title: Fricky's Blog
+subtitle: "早点退休"
+description: "Fricky's personal page"
+date_format: "ordinal"
+# timezone: Asia/Shanghai
+encoding: "utf-8"
+side_bar_repo_limit: 5
+
+author: fuyiqi
+organization: CMBC
+organization_url: http://www.cmbc.com.cn
+github_username: fuyiqi
+location: Beijing, China
+email: fuyiqilove@gmail.com
+
+# Navigation
+navs:
+  -
+    href: /
+    label: Homepage
+
+  -
+    href: /cv/
+    label: CV
+  -
+    href: /categories/
+    label: Blogs
+
+  -
+    href: /wiki/
+    label: Wiki
+
+
+
+# RSS
+subscribe_rss: /feed.xml
+
+# Jekyll
+markdown: kramdown
+kramdown:
+    input: GFM
+highlighter: rouge
+paginate: 8
+lsi: false
+quiet: false
+excerpt_separator: "\n\n"
+permalink: /:year/:month/:day/:title/
+plugins:
+    - jekyll-github-metadata
+    - rouge
+#     - jekyll-html-pipeline
+    - jekyll-paginate
+    - jekyll-sitemap
+    - jekyll-feed
+    - jemoji
+#     - jekyll-mentions
+collections:
+    wiki:
+        output: true
+        permalink: /wiki/:path/
+
+repository: fuyiqi/fuyiqi.github.io
+
+# Search
+simple_jekyll_search:
+    fulltext: false # full text search enable
+    limit: 10 # limitation of the search results to show
+
+# Analytics
+google:
+    analytics_id: UA-80669434-1
+github: [metadata]
