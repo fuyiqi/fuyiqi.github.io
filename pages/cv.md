@@ -11,7 +11,6 @@ permalink: /cv/
 
 Here is my introduction
 
-</br>
 ## Social
 Here is my social account
 
