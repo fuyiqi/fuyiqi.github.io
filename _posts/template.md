@@ -1,9 +1,9 @@
 ---
 layout: post
-title: template page
-categories: [cate1, cate2]
-description: some word here
-keywords: keyword1, keyword2
+title: flink k8s operator的RBAC模型
+categories: [Blog]
+description: 官网翻译版flink k8s operator的RBAC模型
+keywords: flink k8s operator,RBAC
 ---
 
 Content here
