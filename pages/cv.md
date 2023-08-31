@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Curriculum Vitae
+title: 个人简历
 description: Time flies
 keywords: Fricky, Yiqi Fu, CV
 comments: true
